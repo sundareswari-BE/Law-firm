@@ -1,0 +1,93 @@
+@import url(https://fonts.googleapis.com/css?family=Permanent+Marker:400&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Quicksand:300,400,500,600,700&display=swap);
+
+body {
+    font-family: Quicksand;
+    /* filter: grayscale(100%) invert(70%) ; */
+}
+.navbar.navbar-expand-md.border.m-0{
+    background-color: #B2B2B2;
+    height: 80px;
+}
+/* .navbar {
+    background-color:  #fff !important;
+    height: 80px;
+}*/
+
+.logo img {
+    width: 52%;
+    filter: grayscale(100%) invert(70%) ;
+}
+
+.nav-item a{
+    color: #42474c;
+    font-size: 16px !important;
+    font-weight:400 !important;
+
+}
+
+.nav-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30.85%;
+    height: 85px;
+    margin: 0 !important;
+    background-color: #42474c;
+   
+}
+.nav-button .btn{
+    font-family: Quicksand;
+    font-weight: 700 !important;
+    color: #cccccc;
+    
+}
+.container-fluid.nav-bar-container{
+    padding-right: 0;
+}
+
+.nav-link.content-dot::after{
+    margin-left: 0.7rem;
+    content: "";
+    pointer-events: none;
+    display: inline-block;
+    height: 3px;
+    width: 3px;
+    border-radius: 50%;
+    background: #777;
+    position: relative;
+    right: -10px;
+    top: -3px;
+    border: none !important;
+}
+/* ----------------------------------------section-1---------------------------------------- */
+.section-1{
+    background-image: url('../img/column2-1920x1280.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: grayscale(100%);
+}
+.section-1 .main-heading{
+    font-family: Quicksand;
+    font-size: 5em;
+    font-weight: 700;
+    color:#fff;
+    
+}
+.section-1 .main-heading-caption{
+    color:#fff !important;
+    font-family: Quicksand;
+    font-weight: 500;
+}
+.section-1 .button{
+    border: 2px solid #000 ;
+    border-radius: 25px;
+    font-size: 12px;
+    color:#fff;
+    font-weight: 500;
+}
+.section-1 .contact{
+    color:sandybrown;
+    
+}
